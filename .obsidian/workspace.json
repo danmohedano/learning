@@ -1,0 +1,241 @@
+{
+  "main": {
+    "id": "94c07fe31d20422b",
+    "type": "split",
+    "children": [
+      {
+        "id": "9b7372ed94f567ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "04c0d2ffc4210255",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8bc3d3d41516a2df",
+    "type": "split",
+    "children": [
+      {
+        "id": "9da31c06912c8c31",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a1cb582c94fbe9a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d8da4e781ec903db",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "accessing data from pointer",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0ed70ed9329e2ef9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "991b99b773122b2e",
+            "type": "leaf",
+            "state": {
+              "type": "tagfolder-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 367.50418853759766
+  },
+  "right": {
+    "id": "471452010c77bf20",
+    "type": "split",
+    "children": [
+      {
+        "id": "e94000e46add6bf8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aeb339df1ef542f4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d1f8da7dc7cba8e2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ac12eff86381b61f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7e85039122ddee51",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          },
+          {
+            "id": "6dbbcbe67741a75f",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "6424bb63a8df0640",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          },
+          {
+            "id": "4d37facf3ff9d10d",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 560.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "zk-prefixer:Create new unique note": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "04c0d2ffc4210255",
+  "lastOpenFiles": [
+    "index.md",
+    "README.md",
+    "templates/literature-note.md",
+    "test.md",
+    "this will be a test.md",
+    "templates/hello.com.md",
+    "templates/generic-note.md",
+    "templates/language-note.md",
+    "templates/content-summary.md",
+    "templates/meeting-slide.md",
+    "templates/meeting.md",
+    "Julia Something.md",
+    "index-lib.md",
+    "index-content.md",
+    "notes/Neovim Julia Configuration.md",
+    "notes/MUMPS.jl.md",
+    "notes/TimerOutputs.jl.md",
+    "notes/HOFEM.md",
+    "notes/Computational electromagnetics for RF and microwave engineering.md",
+    "notes/Cluster Information.md",
+    "notes/BenchmarkTools.jl.md",
+    "templates/person.md",
+    "meetings/index-meetings.md",
+    "meetings/202303201905.md",
+    "meetings/202310201205.md",
+    "meetings/202309200619.md",
+    "contents/interface/main-c.out",
+    "contents/interface/obj/c_interface.mod",
+    "contents/interface/obj/c-interface.o",
+    "contents/interface/main-fortran.out",
+    "contents/interface/obj/derived-types.o",
+    "contents/interface/obj/julia-interface.o",
+    "contents/interface/lib/interface-dait.so",
+    "contents/interface/obj/interface_dait.mod",
+    "contents/interface/lib/interface-dsit.so",
+    "contents/interface/obj/interface_dsit.mod",
+    "contents/mpi-course/code/exercise4/plot4.png",
+    "contents/mpi-course/code/exercise4/plot1.png",
+    "contents/mpi-course/code/exercise4/plot_1node_log.png",
+    "contents/mpi-course/code/exercise4/plot_1node.png",
+    "contents/mpi-course/code/exercise4/plot_2nodes.png",
+    "contents/mpi-course/code/exercise4/plot_2nodes_log.png",
+    "contents/grema-biweekly/interpreted.png",
+    "contents/grema-biweekly/compiler.png",
+    "contents/grema-biweekly/assets/matlab result.png",
+    "contents/grema-biweekly/assets/hofem example.png"
+  ]
+}

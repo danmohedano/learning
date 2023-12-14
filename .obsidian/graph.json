@@ -1,0 +1,44 @@
+{
+  "collapse-filter": false,
+  "search": "-path: templates -content: \"type: index\" -content: \"type: main\"",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path: /people/",
+      "color": {
+        "a": 1,
+        "rgb": 12210912
+      }
+    },
+    {
+      "query": "path: /meetings/",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "content: \"type: note/literature\"",
+      "color": {
+        "a": 1,
+        "rgb": 2254527
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.7132754626224455,
+  "close": true
+}

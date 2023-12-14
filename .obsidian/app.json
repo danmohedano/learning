@@ -1,0 +1,38 @@
+{
+  "livePreview": false,
+  "vimMode": false,
+  "attachmentFolderPath": "./assets",
+  "showInlineTitle": false,
+  "showLineNumber": true,
+  "spellcheck": false,
+  "spellcheckLanguages": null,
+  "useTab": false,
+  "alwaysUpdateLinks": true,
+  "showFrontmatter": true,
+  "newFileLocation": "current",
+  "useMarkdownLinks": false,
+  "showUnsupportedFiles": true,
+  "spellcheckDictionary": [
+    "Dataview",
+    "Log",
+    "HOFEM",
+    "Fortran",
+    "Fortran",
+    "MeshObject",
+    "integer",
+    "integer",
+    "Properties",
+    "integer",
+    "allocatable"
+  ],
+  "defaultViewMode": "preview",
+  "readableLineLength": false,
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 100
+  },
+  "promptDelete": false
+}

@@ -1,0 +1,12 @@
+{
+  "accentColor": "#32a0be",
+  "cssTheme": "Things",
+  "interfaceFontFamily": "JetBrainsMono Nerd Font",
+  "textFontFamily": "Atkinson Hyperlegible",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font",
+  "showViewHeader": true,
+  "translucency": false,
+  "nativeMenus": false,
+  "baseFontSize": 18,
+  "theme": "obsidian"
+}

@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9b7372ed94f567ea",
+        "id": "4b466ac4e8a96bec",
         "type": "tabs",
         "children": [
           {
-            "id": "04c0d2ffc4210255",
+            "id": "6aafb07dcd55b0a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "Rust.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -67,14 +67,15 @@
             }
           },
           {
-            "id": "991b99b773122b2e",
+            "id": "10bb035063c43f9e",
             "type": "leaf",
             "state": {
               "type": "tagfolder-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -94,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Rust.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Rust.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Rust.md"
               }
             }
           },
@@ -162,7 +163,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
+                "file": "Rust.md"
               }
             }
           }
@@ -189,16 +190,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "04c0d2ffc4210255",
+  "active": "6aafb07dcd55b0a5",
   "lastOpenFiles": [
+    "C++.md",
     "index.md",
+    "Rust.md",
+    "templates/language-index.md",
+    "CPP Resources.md",
+    "templates/generic-note.md",
+    "templates/language-note.md",
+    "templates/Untitled.md",
     "README.md",
+    "content",
     "templates/literature-note.md",
     "test.md",
     "this will be a test.md",
     "templates/hello.com.md",
-    "templates/generic-note.md",
-    "templates/language-note.md",
     "templates/content-summary.md",
     "templates/meeting-slide.md",
     "templates/meeting.md",
@@ -212,11 +219,6 @@
     "notes/Computational electromagnetics for RF and microwave engineering.md",
     "notes/Cluster Information.md",
     "notes/BenchmarkTools.jl.md",
-    "templates/person.md",
-    "meetings/index-meetings.md",
-    "meetings/202303201905.md",
-    "meetings/202310201205.md",
-    "meetings/202309200619.md",
     "contents/interface/main-c.out",
     "contents/interface/obj/c_interface.mod",
     "contents/interface/obj/c-interface.o",
@@ -226,7 +228,6 @@
     "contents/interface/lib/interface-dait.so",
     "contents/interface/obj/interface_dait.mod",
     "contents/interface/lib/interface-dsit.so",
-    "contents/interface/obj/interface_dsit.mod",
     "contents/mpi-course/code/exercise4/plot4.png",
     "contents/mpi-course/code/exercise4/plot1.png",
     "contents/mpi-course/code/exercise4/plot_1node_log.png",

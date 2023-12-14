@@ -11,8 +11,8 @@
   "defaultDateFormat": "MMMM dd, yyyy",
   "defaultDateTimeFormat": "h:mm a - MMMM dd, yyyy",
   "maxRecursiveRenderDepth": 4,
-  "tableIdColumnName": "File",
-  "tableGroupColumnName": "Group",
+  "tableIdColumnName": "file",
+  "tableGroupColumnName": "group",
   "showResultCount": true,
   "allowHtml": true,
   "inlineQueryPrefix": "=",
@@ -22,5 +22,6 @@
   "enableDataviewJs": true,
   "enableInlineDataviewJs": true,
   "prettyRenderInlineFields": true,
+  "prettyRenderInlineFieldsInLivePreview": true,
   "dataviewJsKeyword": "dataviewjs"
 }

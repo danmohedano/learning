@@ -7,8 +7,8 @@ tags: 0-index
 # Languages
 
 ```dataview
-TABLE language AS "lang", focus AS "focus", sourceType AS "type", source AS "source", date AS "date"
-WHERE type = "note/language" AND file.folder != "templates"
+TABLE date AS "date"
+WHERE type = "note/language/index" AND file.folder != "templates"
 SORT date DESC
 ```
 

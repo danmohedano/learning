@@ -27,3 +27,8 @@ TABLE focus AS "focus", description AS "description", date AS "date"
 WHERE type = "note" AND file.folder != "templates" AND !language
 SORT date DESC
 ```
+
+# TODO
+- [ ] NixOS
+- [ ] tmux
+- [ ] terminal auto-complete

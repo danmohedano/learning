@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4b466ac4e8a96bec",
+        "id": "fb65a3eaee483225",
         "type": "tabs",
         "children": [
           {
-            "id": "6aafb07dcd55b0a5",
+            "id": "3c08aa13cdb0d30e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust.md",
-                "mode": "preview",
+                "file": "nvim.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "accessing data from pointer",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust.md",
+                "file": "nvim.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust.md",
+                "file": "nvim.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust.md"
+                "file": "nvim.md"
               }
             }
           },
@@ -153,7 +152,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -163,7 +164,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Rust.md"
+                "file": "nvim.md"
               }
             }
           }
@@ -190,17 +191,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6aafb07dcd55b0a5",
+  "active": "3c08aa13cdb0d30e",
   "lastOpenFiles": [
-    "C++.md",
-    "index.md",
     "Rust.md",
+    "nvim.md",
+    "index.md",
+    "templates/generic-note.md",
+    "C++.md",
+    "README.md",
+    "Clang.md",
+    "content/c++/a.out",
     "templates/language-index.md",
     "CPP Resources.md",
-    "templates/generic-note.md",
     "templates/language-note.md",
     "templates/Untitled.md",
-    "README.md",
     "content",
     "templates/literature-note.md",
     "test.md",
@@ -217,8 +221,6 @@
     "notes/TimerOutputs.jl.md",
     "notes/HOFEM.md",
     "notes/Computational electromagnetics for RF and microwave engineering.md",
-    "notes/Cluster Information.md",
-    "notes/BenchmarkTools.jl.md",
     "contents/interface/main-c.out",
     "contents/interface/obj/c_interface.mod",
     "contents/interface/obj/c-interface.o",
@@ -227,7 +229,6 @@
     "contents/interface/obj/julia-interface.o",
     "contents/interface/lib/interface-dait.so",
     "contents/interface/obj/interface_dait.mod",
-    "contents/interface/lib/interface-dsit.so",
     "contents/mpi-course/code/exercise4/plot4.png",
     "contents/mpi-course/code/exercise4/plot1.png",
     "contents/mpi-course/code/exercise4/plot_1node_log.png",

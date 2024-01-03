@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fb65a3eaee483225",
+        "id": "6bc7ef1b8e76085f",
         "type": "tabs",
         "children": [
           {
-            "id": "3c08aa13cdb0d30e",
+            "id": "9db5a23dfb560f2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nvim.md",
+                "file": "C++ Basics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 367.50418853759766
+    "width": 200
   },
   "right": {
     "id": "471452010c77bf20",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nvim.md",
+                "file": "C++ Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "nvim.md",
+                "file": "C++ Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "nvim.md"
+                "file": "C++ Basics.md"
               }
             }
           },
@@ -164,7 +164,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "nvim.md"
+                "file": "C++ Basics.md"
               }
             }
           }
@@ -191,21 +191,32 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3c08aa13cdb0d30e",
+  "active": "9db5a23dfb560f2e",
   "lastOpenFiles": [
-    "Rust.md",
-    "nvim.md",
-    "index.md",
-    "templates/generic-note.md",
-    "C++.md",
-    "README.md",
+    "content/c++/hello-world.exe",
+    "content/c++/basic-vars.exe",
+    "content/c++/basic-vars.cpp~",
+    "content/c++/4913",
+    "content/c++/basic-vars.cpp",
+    "content/c++/hello-world.cpp",
+    "make.md",
     "Clang.md",
-    "content/c++/a.out",
+    "C++.md",
+    "index.md",
+    "C++ Basics.md",
+    "content/c++/new.exe",
+    "content/c++/0-7-hello-world.exe",
+    "content/c++/Makefile~",
+    "content/c++/new.cpp",
+    "content/c++/Makefile",
+    "nvim.md",
+    "Rust.md",
+    "templates/generic-note.md",
+    "README.md",
     "templates/language-index.md",
     "CPP Resources.md",
     "templates/language-note.md",
     "templates/Untitled.md",
-    "content",
     "templates/literature-note.md",
     "test.md",
     "this will be a test.md",
@@ -218,17 +229,6 @@
     "index-content.md",
     "notes/Neovim Julia Configuration.md",
     "notes/MUMPS.jl.md",
-    "notes/TimerOutputs.jl.md",
-    "notes/HOFEM.md",
-    "notes/Computational electromagnetics for RF and microwave engineering.md",
-    "contents/interface/main-c.out",
-    "contents/interface/obj/c_interface.mod",
-    "contents/interface/obj/c-interface.o",
-    "contents/interface/main-fortran.out",
-    "contents/interface/obj/derived-types.o",
-    "contents/interface/obj/julia-interface.o",
-    "contents/interface/lib/interface-dait.so",
-    "contents/interface/obj/interface_dait.mod",
     "contents/mpi-course/code/exercise4/plot4.png",
     "contents/mpi-course/code/exercise4/plot1.png",
     "contents/mpi-course/code/exercise4/plot_1node_log.png",

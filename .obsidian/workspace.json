@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++ Basics.md",
+                "file": "make.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++ Basics.md",
+                "file": "make.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++ Basics.md",
+                "file": "make.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++ Basics.md"
+                "file": "make.md"
               }
             }
           },
@@ -164,7 +164,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "C++ Basics.md"
+                "file": "make.md"
               }
             }
           }
@@ -193,23 +193,23 @@
   },
   "active": "9db5a23dfb560f2e",
   "lastOpenFiles": [
+    "4913",
+    "content/c++/hello-world.out",
+    "content/c++/basic-vars.out",
+    "content/c++/Makefile~",
+    "content/c++/4913",
+    "C++ Basics.md",
     "content/c++/hello-world.exe",
     "content/c++/basic-vars.exe",
+    "C++.md",
+    "nvim.md",
     "content/c++/basic-vars.cpp~",
-    "content/c++/4913",
     "content/c++/basic-vars.cpp",
     "content/c++/hello-world.cpp",
     "make.md",
     "Clang.md",
-    "C++.md",
     "index.md",
-    "C++ Basics.md",
     "content/c++/new.exe",
-    "content/c++/0-7-hello-world.exe",
-    "content/c++/Makefile~",
-    "content/c++/new.cpp",
-    "content/c++/Makefile",
-    "nvim.md",
     "Rust.md",
     "templates/generic-note.md",
     "README.md",

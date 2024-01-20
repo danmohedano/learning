@@ -1,13 +1,22 @@
 CC=clang++
 CFLAGS=-Wall -Weffc++ -Wextra -Wconversion -Wsign-conversion -Werror -std=c++17
-EXES=$(patsubst %.cpp,%.exe,$(wildcard *.cpp))
+OUTS=$(patsubst %.cpp,%.out,$(wildcard *.cpp))
 
 .PHONY: clean
 
-all: $(EXES) 
+all: $(OUTS) 
 
-$(EXES): %.exe: %.cpp
+$(OUTS): %.out: %.cpp
 	$(CC) $(CFLAGS) $< -o $@
 
 clean:
-	rm -f *.exe
+	rm -f *.out
+
+run: $(OUTS)
+	for file in $^ ; do \
+		echo "=============================================" ; \
+		echo "Testing " $${file} ; \
+		echo "---------------------------------------------" ; \
+		./$${file} ; \
+	done
+

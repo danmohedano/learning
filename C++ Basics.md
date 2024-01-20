@@ -42,3 +42,4 @@ int main()
 `std::cout` is buffered. 
 
 `std::endl` is not only a new line. It moves the cursor to the next line and flushes the buffer.
+

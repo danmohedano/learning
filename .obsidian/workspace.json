@@ -8,19 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9db5a23dfb560f2e",
+            "id": "4420c9785a27ec27",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "make.md",
+                "file": "C++ Fundamental Data Types.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "fed1bc32f371242f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++ Constants and Strings.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "make.md",
+                "file": "C++ Constants and Strings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "make.md",
+                "file": "C++ Constants and Strings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "make.md"
+                "file": "C++ Constants and Strings.md"
               }
             }
           },
@@ -164,7 +178,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "make.md"
+                "file": "C++ Constants and Strings.md"
               }
             }
           }
@@ -191,25 +205,28 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9db5a23dfb560f2e",
+  "active": "fed1bc32f371242f",
   "lastOpenFiles": [
-    "4913",
+    "C++ Fundamental Data Types.md",
+    "C++ Constants and Strings.md",
+    "content/c++/sizeof.out",
     "content/c++/hello-world.out",
+    "content/c++/fast-least.out",
     "content/c++/basic-vars.out",
-    "content/c++/Makefile~",
+    "content/c++/fast-least.cpp~",
     "content/c++/4913",
+    "content/c++/fast-least.cpp",
+    "content/c++/sizeof.cpp~",
+    "content/c++/sizeof.cpp",
+    "C++ Basics - Functions and Files.md",
+    "Debugging C++ Programs.md",
+    "Clang.md",
     "C++ Basics.md",
-    "content/c++/hello-world.exe",
-    "content/c++/basic-vars.exe",
+    "content/c++/Makefile~",
+    "make.md",
     "C++.md",
     "nvim.md",
-    "content/c++/basic-vars.cpp~",
-    "content/c++/basic-vars.cpp",
-    "content/c++/hello-world.cpp",
-    "make.md",
-    "Clang.md",
     "index.md",
-    "content/c++/new.exe",
     "Rust.md",
     "templates/generic-note.md",
     "README.md",
@@ -226,9 +243,6 @@
     "templates/meeting.md",
     "Julia Something.md",
     "index-lib.md",
-    "index-content.md",
-    "notes/Neovim Julia Configuration.md",
-    "notes/MUMPS.jl.md",
     "contents/mpi-course/code/exercise4/plot4.png",
     "contents/mpi-course/code/exercise4/plot1.png",
     "contents/mpi-course/code/exercise4/plot_1node_log.png",

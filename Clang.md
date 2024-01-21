@@ -15,3 +15,5 @@ Basic compilation:
 ```sh
 clang++ -Wall -Werror -std=c++11 main.cpp
 ```
+
+When using header files, the `-I` option can be used to tell the compiler where to find the include directory.

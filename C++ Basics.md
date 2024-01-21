@@ -2,7 +2,7 @@
 date: 2024-01-03
 type: note/language
 language: C++
-focus: "Basics"
+focus: "basics"
 sourceType: tutorial
 source: "[https://www.learncpp.com/cpp-tutorial/statements-and-the-structure-of-a-program/](https://www.learncpp.com/cpp-tutorial/statements-and-the-structure-of-a-program/)"
 tags: cpp, basics
@@ -43,3 +43,6 @@ int main()
 
 `std::endl` is not only a new line. It moves the cursor to the next line and flushes the buffer.
 
+# Uninitialized Variables and Undefined Behaviour
+
+Most modern compilers will attempt to detect if a variable is being used without being given a value. If they are able to detect this, they will generally issue a compile-time warning or error.

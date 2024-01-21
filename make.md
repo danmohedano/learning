@@ -8,7 +8,7 @@ source: "[https://www.gnu.org/software/make/manual/html_node/index.html](https:/
 tags: make
 ---
 
-## Phony Targets
+# Phony Targets
 
 One that is not really the name of a file; rather, it is just a name for a recipe to be executed when you make an explicit request. For example:
 
@@ -18,7 +18,7 @@ clean:
     rm *.o temp
 ```
 
-## Automatic Variables
+# Automatic Variables
 
 - `$@`: file name of the target of the rule.
 - `$%`: target member name, when the target is an archive member.
@@ -26,7 +26,7 @@ clean:
 - `$?`: the names of all the prerequisites that are newer than the target, with spaces between them.
 - `$^`: the names of all the prerequisites, with spaces between them.
 
-## Functions for String Substitution and Analysis
+# Functions for String Substitution and Analysis
 
 > `$(subst from,to,text)`
 

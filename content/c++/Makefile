@@ -15,7 +15,7 @@ clean:
 run: $(OUTS)
 	for file in $^ ; do \
 		echo "=============================================" ; \
-		echo "Testing " $${file} ; \
+		echo "Testing '$${file}'" ; \
 		echo "---------------------------------------------" ; \
 		./$${file} ; \
 	done

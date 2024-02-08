@@ -8,33 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4420c9785a27ec27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++ Fundamental Data Types.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "fed1bc32f371242f",
+            "id": "1d22acbab709167e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "C++ Constants and Strings.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -205,10 +191,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fed1bc32f371242f",
+  "active": "1d22acbab709167e",
   "lastOpenFiles": [
-    "C++ Fundamental Data Types.md",
+    "C++.md",
+    "index.md",
+    "tmux.md",
+    "make.md",
     "C++ Constants and Strings.md",
+    "C++ Fundamental Data Types.md",
     "content/c++/sizeof.out",
     "content/c++/hello-world.out",
     "content/c++/fast-least.out",
@@ -223,10 +213,7 @@
     "Clang.md",
     "C++ Basics.md",
     "content/c++/Makefile~",
-    "make.md",
-    "C++.md",
     "nvim.md",
-    "index.md",
     "Rust.md",
     "templates/generic-note.md",
     "README.md",
@@ -242,7 +229,6 @@
     "templates/meeting-slide.md",
     "templates/meeting.md",
     "Julia Something.md",
-    "index-lib.md",
     "contents/mpi-course/code/exercise4/plot4.png",
     "contents/mpi-course/code/exercise4/plot1.png",
     "contents/mpi-course/code/exercise4/plot_1node_log.png",

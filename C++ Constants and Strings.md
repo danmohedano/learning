@@ -33,3 +33,19 @@ The compiler is only required to evaluate constant expressions at compile-time i
 # `Constexpr` Variables
 
 When you declare a `const` variable, the compiler will implicitly keep track of whether it's a runtime or compile-time constant. Because compile-time cosntants also allow for better optimization (and have little downside), we typically want to use compile-time constants wherever possible.
+
+We can enlist the compiler's help to ensure we get a compile-time constant variable where we desire one. To do so, we use the `constexpr` keyword instead of `const`. 
+
+```ad-warning
+Some types are not fully compatible with `constexpr` (specially if they use dynamic memory allocation). For these types of objects, either use `const` or pick a different type.
+```
+
+# The Conditional Operator
+
+The **conditional operator** is a ternary operator of the form `c ? x : y`, where if conditional `c` is `true` then evaluate `x`, otherwise evaluate `y`.
+
+Because the operands of the conditional operator are expressions rather than statements, the conditional operator can be used in places where an expression is required.
+
+# Inline Functions and Variables
+
+To avoid the performance overhead of calling functions, C++ can create inline functions and variables. Sometimes, it can do so automatically using **inline expansion**

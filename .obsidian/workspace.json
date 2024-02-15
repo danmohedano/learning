@@ -8,13 +8,39 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1d22acbab709167e",
+            "id": "e3e21c98ba27243c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++ Constants and Strings.md",
+                "file": "cmake.md",
                 "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "535f8afd2d17e628",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d751412c4d449574",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Clang.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -103,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++ Constants and Strings.md",
+                "file": "cmake.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++ Constants and Strings.md",
+                "file": "cmake.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++ Constants and Strings.md"
+                "file": "cmake.md"
               }
             }
           },
@@ -173,7 +199,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "C++ Constants and Strings.md"
+                "file": "cmake.md"
               }
             }
           }
@@ -200,53 +226,53 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1d22acbab709167e",
+  "active": "e3e21c98ba27243c",
   "lastOpenFiles": [
-    "C++.md",
+    "content/cmake/tutorial/Step1/build/Tutorial",
+    "content/cmake/tutorial/Step1/build/CMakeFiles/Progress/2",
+    "content/cmake/tutorial/Step1/build/CMakeFiles/Tutorial.dir/tutorial.cxx.o",
+    "content/cmake/tutorial/Step1/build/CMakeFiles/Tutorial.dir/compiler_depend.internal",
+    "content/cmake/tutorial/Step1/build/CMakeFiles/Tutorial.dir/compiler_depend.internal.tmpbc51d",
+    "content/cmake/tutorial/Step1/build/CMakeFiles/Tutorial.dir/compiler_depend.make.tmp9023d",
+    "content/cmake/tutorial/Step1/build/CMakeCache.txt.tmp43495",
+    "content/cmake/tutorial/Step1/build/CMakeFiles/Makefile2.tmp0d1dc",
+    "content/cmake/tutorial/Step1/build/CMakeFiles/progress.marks",
+    "content/cmake/tutorial/Step1/build/CMakeFiles/progress.marks.tmpe9749",
+    "content/cmake/tutorial/Step1/build/CMakeFiles/Tutorial.dir/progress.make",
+    "content/cmake/tutorial/CMake/Utilities/Sphinx/static/cmake-logo-16.png",
+    "content/cmake/tutorial/CMake/Utilities/Release/WiX/ui_dialog.jpg",
+    "content/cmake/tutorial/CMake/Utilities/Release/WiX/ui_banner.jpg",
+    "content/cmake/tutorial/CMake/Utilities/cmpdcurses/wincon/README.md",
+    "content/cmake/tutorial/CMake/Utilities/cmpdcurses/pdcurses/README.md",
+    "content/cmake/tutorial/CMake/Utilities/Release/CMakeInstall.bmp",
+    "content/cmake/tutorial/CMake/Utilities/KWIML/README.md",
+    "content/cmake/tutorial/CMake/Utilities/cmzstd/README.md",
+    "content/cmake/tutorial/CMake/Utilities/cmpdcurses/README.md",
+    "content/cmake/tutorial/CMake/Utilities/cmexpat/README.md",
+    "content/cmake/tutorial/CMake/Tests/VSXaml/Assets/StoreLogo.scale-100.png",
+    "content/cmake/tutorial/CMake/Tests/VSXaml/Assets/SplashScreen.scale-100.png",
+    "content/cmake/tutorial/CMake/Tests/VSXaml/Assets/SmallLogo.scale-100.png",
+    "content/cmake/tutorial/CMake/Tests/VSXaml/Assets/Logo.scale-100.png",
+    "content/cmake/tutorial/CMake/Tests/VSWinStorePhone/Direct3DApp1/Assets/Tiles/IconicTileSmall.png",
+    "content/cmake/tutorial/CMake/Tests/VSWinStorePhone/Direct3DApp1/Assets/Tiles/IconicTileMediumLarge.png",
+    "Clang.md",
+    "cmake.md",
     "index.md",
+    "Untitled.md",
+    "C++ Constants and Strings.md",
+    "C++.md",
     "tmux.md",
     "make.md",
-    "C++ Constants and Strings.md",
     "C++ Fundamental Data Types.md",
-    "content/c++/sizeof.out",
-    "content/c++/hello-world.out",
-    "content/c++/fast-least.out",
-    "content/c++/basic-vars.out",
-    "content/c++/fast-least.cpp~",
-    "content/c++/4913",
-    "content/c++/fast-least.cpp",
-    "content/c++/sizeof.cpp~",
-    "content/c++/sizeof.cpp",
     "C++ Basics - Functions and Files.md",
     "Debugging C++ Programs.md",
-    "Clang.md",
     "C++ Basics.md",
-    "content/c++/Makefile~",
     "nvim.md",
     "Rust.md",
     "templates/generic-note.md",
     "README.md",
     "templates/language-index.md",
     "CPP Resources.md",
-    "templates/language-note.md",
-    "templates/Untitled.md",
-    "templates/literature-note.md",
-    "test.md",
-    "this will be a test.md",
-    "templates/hello.com.md",
-    "templates/content-summary.md",
-    "templates/meeting-slide.md",
-    "templates/meeting.md",
-    "Julia Something.md",
-    "contents/mpi-course/code/exercise4/plot4.png",
-    "contents/mpi-course/code/exercise4/plot1.png",
-    "contents/mpi-course/code/exercise4/plot_1node_log.png",
-    "contents/mpi-course/code/exercise4/plot_1node.png",
-    "contents/mpi-course/code/exercise4/plot_2nodes.png",
-    "contents/mpi-course/code/exercise4/plot_2nodes_log.png",
-    "contents/grema-biweekly/interpreted.png",
-    "contents/grema-biweekly/compiler.png",
-    "contents/grema-biweekly/assets/matlab result.png",
-    "contents/grema-biweekly/assets/hofem example.png"
+    "templates/language-note.md"
   ]
 }

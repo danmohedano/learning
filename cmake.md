@@ -219,3 +219,62 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 ## Adding a Library (Step 2)
 
 For the tutorial, the library will be put into a subdirectory called `MathFunctions`. This directory already contains a header file, `MathFunctions.h` and a source file `mysqrt.cxx`. 
+
+```cmake
+add_library(MathFunctions MathFunctions.cxx mysqrt.cxx)
+```
+
+To make use of the new library, we will:
+
+- Add an `add_subdirectory` call in the top-level `CMakeLists.txt` file so that the library will get built
+- Add the new library to the executable
+- Add `MathFunctions` as an include directory so that the header file can be found
+
+```cmake
+add_subdirectory(MathFunctions)
+add_executable(Tutorial tutorial.cxx)
+target_link_libraries(Tutorial PUBLIC MathFunctions)
+target_include_directories(Tutorial PUBLIC
+                           "${PROJECT_BINARY_DIR}"
+                           "${PROJECT_SOURCE_DIR}/MathFunctions)"
+                           )
+```
+
+To make the MathFunctions library optional, we can add the option to the `MathFunctions/CMakeLists.txt`:
+
+```cmake
+option(USE_MYMATH "Use tutorial provided math implementation" ON)
+```
+
+The next step is to make the building and linking conditional (and make the option a compile definition).
+
+```cmake
+if(USE_MYMATH)
+    target_compile_definitions(MathFunctions PRIVATE "USE_MYMATH")
+endif()
+```
+
+Then the source code for `MathFunctions/MathFunctions.cxx` must be updated to use the correct implementation:
+
+```cpp
+#ifdef USE_MYMATH
+  return detail::mysqrt(x);
+#else
+  return std::sqrt(x);
+#endif
+```
+
+Also, to avoid `mysqrt.cxx` being compiled even when the option is disabled, we can add the following commands to the conditional:
+
+```cmake
+add_library(SqrtLibrary STATIC mysqrt.cxx)
+target_link_libraries(MathFunctions PRIVATE SqrtLibrary)
+```
+
+Therefore, `mysqrt.cxx` can be removed from the `MathFunctions` library source list.
+
+To update the value of the option, the following command can be run:
+
+```sh
+cmake .. -DUSE_MYMATH=OFF
+```

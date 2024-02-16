@@ -108,7 +108,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -228,17 +229,17 @@
   },
   "active": "e3e21c98ba27243c",
   "lastOpenFiles": [
-    "content/cmake/tutorial/Step1/build/Tutorial",
-    "content/cmake/tutorial/Step1/build/CMakeFiles/Progress/2",
-    "content/cmake/tutorial/Step1/build/CMakeFiles/Tutorial.dir/tutorial.cxx.o",
-    "content/cmake/tutorial/Step1/build/CMakeFiles/Tutorial.dir/compiler_depend.internal",
-    "content/cmake/tutorial/Step1/build/CMakeFiles/Tutorial.dir/compiler_depend.internal.tmpbc51d",
-    "content/cmake/tutorial/Step1/build/CMakeFiles/Tutorial.dir/compiler_depend.make.tmp9023d",
-    "content/cmake/tutorial/Step1/build/CMakeCache.txt.tmp43495",
-    "content/cmake/tutorial/Step1/build/CMakeFiles/Makefile2.tmp0d1dc",
-    "content/cmake/tutorial/Step1/build/CMakeFiles/progress.marks",
-    "content/cmake/tutorial/Step1/build/CMakeFiles/progress.marks.tmpe9749",
-    "content/cmake/tutorial/Step1/build/CMakeFiles/Tutorial.dir/progress.make",
+    "content/cmake/tutorial/Step2/build/CMakeFiles/Progress/6",
+    "content/cmake/tutorial/Step2/build/CMakeFiles/Progress/5",
+    "content/cmake/tutorial/Step2/build/CMakeFiles/Tutorial.dir/compiler_depend.internal",
+    "content/cmake/tutorial/Step2/build/MathFunctions/st6vNt8H",
+    "content/cmake/tutorial/Step2/build/CMakeFiles/Progress/2",
+    "content/cmake/tutorial/Step2/build/CMakeFiles/Progress/1",
+    "content/cmake/tutorial/Step2/build/MathFunctions/CMakeFiles/MathFunctions.dir/compiler_depend.internal",
+    "content/cmake/tutorial/Step2/build/CMakeFiles/Progress/4",
+    "content/cmake/tutorial/Step2/build/CMakeFiles/Progress/3",
+    "content/cmake/tutorial/Step2/build/MathFunctions/CMakeFiles/SqrtLibrary.dir/compiler_depend.internal",
+    "content/cmake/tutorial/Step2/build/CMakeFiles/Progress/count.txt",
     "content/cmake/tutorial/CMake/Utilities/Sphinx/static/cmake-logo-16.png",
     "content/cmake/tutorial/CMake/Utilities/Release/WiX/ui_dialog.jpg",
     "content/cmake/tutorial/CMake/Utilities/Release/WiX/ui_banner.jpg",

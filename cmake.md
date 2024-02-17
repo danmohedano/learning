@@ -278,3 +278,62 @@ To update the value of the option, the following command can be run:
 ```sh
 cmake .. -DUSE_MYMATH=OFF
 ```
+
+## Adding Usage Requirements for a Library (Step 3)
+
+**Usage requirements** of a target parameters allow for a far better control over a library or executable's link and include line while also giving more control over the transitive property of targets inside CMake.
+
+The aim of this exercise is to refactor the code we just wrote to use the modern CMake approach. We will let our library define its own usage requirements, so they are passed transitively to other targets as necessary. In this case, `MathFunctions` will specify any needed include directories itself. Then, the consuming target `Tutorial` simply needs to link to `MathFunctions` and not worry about any additional include directories.
+
+Therefore, the `MathFunctions/CMakeLists.txt` file should be updated to contain:
+
+```cmake
+target_include_directories(MathFunctions INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
+```
+
+And the top-level `CMakeLists.txt` file can be updated to remove any addition of this directory to the include.
+
+Now, let's refactor our code to use an `INTERFACE` library, which will be used in the next step to demonstrate a common use for `genertor expressions`.  We will use an `INTERFACE` library to specify the C++ standard. Instead of using a `set` command as before
+
+```cmake
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+```
+
+This can be replaced with the following code:
+
+```cmake
+add_library(tutorial_compiler_flags INTERFACE)
+target_compile_features(tutorial_compiler_flag INTERFACE cxx_std_11)
+```
+
+After doing this, all our libraries need to be linked to the new one in their respective `CMakeLists.txt`.
+
+```cmake
+target_link_libraries(lib_name PUBLIC tutorial_compiler_flags)
+```
+
+By doing this, all our code still requires C++ 11 to build, but it gives us the ability to be specific about which targets get specific requirements, and we create a single source of truth in our interface library.
+
+## Adding Generator Expressions (Step 4)
+
+**Generator expressions** are evaluated during build system generation to produce information specific to each build configuration. They may be used to enable conditional linking, conditional definitions used when compiling, conditional include directories and more. 
+
+A common use for them is to conditionally add compiler flags, such as those for language levels or warnings. A nice pattern is to associate this information to an `INTERFACE` target allowing this information to propagate. In this exercise, we want to add comiler warning flags when building but not for installed versions.
+
+First we have to determine which compiler our system is currently using (warning flags vary based on compiler).
+
+```cmake
+set(gcc_like_cxx "$<COMPILE_LANG_AND_ID:CXX,ARMLang,AppleClang,Clang,GNU,LCC>")
+set(msvc_cxx "$<COMPILE_LANG_AND_ID:CXX,MSVC>")
+```
+
+And add the desired compiler warning flags that we want for our project.
+
+```cmake
+target_compile_options(tutorial_compiler_flags INTERFACE
+  "$<${gcc_like_cxx}:$<BUILD_INTERFACE:-Wall;-Wextra;-Wshadow;-Wformat=2;-Wunused>>"
+  "$<${msvc_cxx}:$<BUILD_INTERFACE:-W3>>"
+)
+```
+

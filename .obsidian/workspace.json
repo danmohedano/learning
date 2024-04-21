@@ -13,40 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cmake.md",
+                "file": "nvim.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "02fef112efb1a6e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tikz.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
-          },
-          {
-            "id": "535f8afd2d17e628",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "d751412c4d449574",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clang.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,22 +87,12 @@
               "type": "tagfolder-view",
               "state": {}
             }
-          },
-          {
-            "id": "16088defc60f4fc6",
-            "type": "leaf",
-            "state": {
-              "type": "tagfolder-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "471452010c77bf20",
@@ -130,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cmake.md",
+                "file": "tikz.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cmake.md",
+                "file": "tikz.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cmake.md"
+                "file": "tikz.md"
               }
             }
           },
@@ -200,7 +178,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "cmake.md"
+                "file": "tikz.md"
               }
             }
           }
@@ -227,8 +205,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e3e21c98ba27243c",
+  "active": "02fef112efb1a6e5",
   "lastOpenFiles": [
+    "nvim.md",
+    "tikz.md",
+    "cmake.md",
     "content/cmake/tutorial/Step3/build/CMakeFiles/Progress/6",
     "content/cmake/tutorial/Step3/build/CMakeFiles/Progress/5",
     "content/cmake/tutorial/Step3/build/CMakeFiles/Tutorial.dir/compiler_depend.internal",
@@ -239,7 +220,6 @@
     "content/cmake/tutorial/Step3/build/MathFunctions/CMakeFiles/MathFunctions.dir/compiler_depend.internal",
     "content/cmake/tutorial/Step3/build/MathFunctions/CMakeFiles/MathFunctions.dir/compiler_depend.internal.tmp472a8",
     "content/cmake/tutorial/Step3/build/MathFunctions/CMakeFiles/MathFunctions.dir/compiler_depend.make.tmp72373",
-    "content/cmake/tutorial/Step3/build/CMakeFiles/Progress/4",
     "content/cmake/tutorial/CMake/Utilities/Sphinx/static/cmake-logo-16.png",
     "content/cmake/tutorial/CMake/Utilities/Release/WiX/ui_dialog.jpg",
     "content/cmake/tutorial/CMake/Utilities/Release/WiX/ui_banner.jpg",
@@ -257,9 +237,7 @@
     "content/cmake/tutorial/CMake/Tests/VSWinStorePhone/Direct3DApp1/Assets/Tiles/IconicTileSmall.png",
     "content/cmake/tutorial/CMake/Tests/VSWinStorePhone/Direct3DApp1/Assets/Tiles/IconicTileMediumLarge.png",
     "Clang.md",
-    "cmake.md",
     "index.md",
-    "Untitled.md",
     "C++ Constants and Strings.md",
     "C++.md",
     "tmux.md",
@@ -268,7 +246,6 @@
     "C++ Basics - Functions and Files.md",
     "Debugging C++ Programs.md",
     "C++ Basics.md",
-    "nvim.md",
     "Rust.md",
     "templates/generic-note.md",
     "README.md",

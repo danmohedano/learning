@@ -8,33 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e3e21c98ba27243c",
+            "id": "221841626c34eef5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nvim.md",
+                "file": "beamer.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
-          },
-          {
-            "id": "02fef112efb1a6e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tikz.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tikz.md",
+                "file": "beamer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tikz.md",
+                "file": "beamer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tikz.md"
+                "file": "beamer.md"
               }
             }
           },
@@ -178,7 +164,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "tikz.md"
+                "file": "beamer.md"
               }
             }
           }
@@ -205,10 +191,13 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "02fef112efb1a6e5",
+  "active": "221841626c34eef5",
   "lastOpenFiles": [
-    "nvim.md",
+    "assets/687474703a2f2f692e696d6775722e636f6d2f4278753532667a2e706e67.png",
+    "assets",
     "tikz.md",
+    "beamer.md",
+    "nvim.md",
     "cmake.md",
     "content/cmake/tutorial/Step3/build/CMakeFiles/Progress/6",
     "content/cmake/tutorial/Step3/build/CMakeFiles/Progress/5",
@@ -219,7 +208,6 @@
     "content/cmake/tutorial/Step3/build/CMakeFiles/Progress/1",
     "content/cmake/tutorial/Step3/build/MathFunctions/CMakeFiles/MathFunctions.dir/compiler_depend.internal",
     "content/cmake/tutorial/Step3/build/MathFunctions/CMakeFiles/MathFunctions.dir/compiler_depend.internal.tmp472a8",
-    "content/cmake/tutorial/Step3/build/MathFunctions/CMakeFiles/MathFunctions.dir/compiler_depend.make.tmp72373",
     "content/cmake/tutorial/CMake/Utilities/Sphinx/static/cmake-logo-16.png",
     "content/cmake/tutorial/CMake/Utilities/Release/WiX/ui_dialog.jpg",
     "content/cmake/tutorial/CMake/Utilities/Release/WiX/ui_banner.jpg",
@@ -250,7 +238,6 @@
     "templates/generic-note.md",
     "README.md",
     "templates/language-index.md",
-    "CPP Resources.md",
-    "templates/language-note.md"
+    "CPP Resources.md"
   ]
 }

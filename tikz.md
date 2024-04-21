@@ -3,7 +3,7 @@ date: 2024-04-21
 type: note
 focus: "tikz"
 description: "Using Tikz to create diagrams in LaTeX"
-tags: latex, tikz
+tags: diagrams, tikz, latex
 ---
 
 # Example
